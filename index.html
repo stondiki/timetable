@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styes.css">
+    <title>Timetable Generator</title>
+</head>
+
+<body>
+    <div id="controls">
+        <div id="init">
+            <h3>Enter semester info below</h3>
+            <form action="" id="f">
+                <fieldset>
+                    <legend>Sem info</legend>
+                    <input type="text" name="units" class="felements" id="units" placeholder="Number of units on offer"><br>
+                    <input type="text" name="venues" class="felements" id="venues" placeholder="Number of venues available"><br>
+                    <input type="button" class="felements" value="Submit" onclick="init()"><br>
+                </fieldset>
+            </form>
+        </div>
+        <div id="setup">
+
+        </div>
+    </div>
+    <div id="tt">
+        <h1>Timetable Generator</h1>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Unit</th>
+                <th>Venue</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td id="MondayTime"></td>
+                <td id="MondayUnit"></td>
+                <td id="MondayVenue"></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td id="TuesdayTime"></td>
+                <td id="TuesdayUnit"></td>
+                <td id="TuesdayVenue"></td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td id="WednesdayTime"></td>
+                <td id="WednesdayUnit"></td>
+                <td id="WednesdayVenue"></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td id="ThursdayTime"></td>
+                <td id="ThursdayUnit"></td>
+                <td id="ThursdayVenue"></td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td id="FridayTime"></td>
+                <td id="FridayUnit"></td>
+                <td id="FridayVenue"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

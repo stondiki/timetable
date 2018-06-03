@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: calibri;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+li:nth-child(even) {
+    background-color: azure;
+}
+
+fieldset {
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+th {
+    font-size: 25px;
+}
+
+input {
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+button {
+    margin-bottom: 50px;
+    height: 50px;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+select {
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+table {
+    width: calc(100% - 30px);
+}
+
+td {
+    border: 1px solid black;
+}
+
+#controls {
+    width: 450px;
+    height: 100%;
+    float: left;
+    position: fixed;
+    overflow-y: auto;
+}
+
+#tt {
+    width: calc(100% - 450px);
+    height: 100%;
+    float: left;
+    position: fixed;
+    margin-left: 450px;
+    text-align: center;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.felements {
+    width: 200px;
+}
